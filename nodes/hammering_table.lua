@@ -1,0 +1,30 @@
+minetest.register_node("exile_crafting_tables:hammering_table", {
+    description = "Hammering Log",
+    tiles = {
+        "exile_crafting_tables_hammering_log_top.png",
+        "tech_chopping_block_top.png",
+        "exile_crafting_tables_hammering_log_right.png",
+        "exile_crafting_tables_hammering_log_left.png",
+        "exile_crafting_tables_hammering_log_back.png",
+        "exile_crafting_tables_hammering_log_front.png",
+    },
+    drawtype = "nodebox",
+    node_box = {
+        type = "fixed",
+        fixed = {
+            { -0.375, -0.5, -0.375, 0.375, 0.250, 0.375 },
+            { -0.3125, -0.5, 0.375, 0.3125, 0.250, 0.4375 },
+            { -0.3125, -0.5, -0.4375, 0.3125, 0.250, -0.375 },
+            { 0.375, -0.5, -0.3125, 0.4375, 0.250, 0.3125 },
+            { -0.4375, -0.5, -0.3125, -0.375, 0.250, 0.3125 },
+            { -0.0625, 0.23, 0.0000, 0.0625, 0.36, 0.3125 },
+            { -0.0625, 0.23, 0.1250, 0.2500, 0.3125, 0.1875 },
+        },
+    },
+    stack_max = 1,
+    paramtype = "light",
+    paramtype2 = "facedir",
+    groups = { dig_immediate = 3, falling_node = 1, temp_pass = 1, craftedby = 1 },
+    sounds = nodes_nature.node_sound_wood_defaults(),
+    on_rightclick = crafting.make_on_rightclick("hammering_block", 2, { x = 8, y = 3 }),
+})

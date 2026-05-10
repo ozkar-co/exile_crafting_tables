@@ -1,7 +1,15 @@
 local modpath = minetest.get_modpath(minetest.get_current_modname())
 
--- Compatibility mode: optional advanced stations that open existing Exile craft types.
-dofile(modpath .. "/nodes/advanced_stations.lua")
+dofile(modpath .. "/nodes/crafting_bench.lua")
+dofile(modpath .. "/nodes/threshing_table.lua")
+dofile(modpath .. "/nodes/hammering_table.lua")
+dofile(modpath .. "/nodes/grinding_wheel.lua")
+dofile(modpath .. "/nodes/weaving_frame.lua")
 dofile(modpath .. "/nodes/mixing_bucket.lua")
-dofile(modpath .. "/crafts/advanced_stations.lua")
+
+dofile(modpath .. "/crafts/crafting_bench.lua")
+dofile(modpath .. "/crafts/threshing_table.lua")
+dofile(modpath .. "/crafts/hammering_table.lua")
+dofile(modpath .. "/crafts/grinding_wheel.lua")
+dofile(modpath .. "/crafts/weaving_frame.lua")
 dofile(modpath .. "/crafts/mixing_bucket.lua")
