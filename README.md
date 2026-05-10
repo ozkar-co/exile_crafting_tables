@@ -31,3 +31,21 @@ Compatibility notes:
 Notes:
 - This mod is for recipe organization and presentation only.
 - The current focus is visual cleanup, not adding new gameplay loops.
+
+Licenses and permissions:
+- This repository's own code is released under The Unlicense (see LICENSE).
+- Exile game code and tech station code are GPLv3. The weaving frame behavior and nodebox were adapted from Exile's original tech station implementation in mods/tech/craft_stations.lua.
+- Exile media assets are not automatically relicensed by this repository.
+- The copied base textures in this mod:
+	- textures/exile_crafting_tables_maraka_log.png
+	- textures/exile_crafting_tables_limestone.png
+	- textures/exile_crafting_tables_granite.png
+	- textures/exile_crafting_tables_basalt.png
+	are derived from Exile nodes_nature textures and must keep their original attribution/license context.
+- According to Exile documentation:
+	- mods/nodes_nature/README.txt lists textures/models as CC BY-SA 3.0 (Dokimi, Jan Wielkiewicz).
+	- mods/tech/README.txt states textures are CC BY-SA 3.0 unless otherwise noted; tech_stick.png is credited to BlockMen under CC BY-SA 3.0.
+
+Practical rule for this mod:
+- Treat external copied/adapted assets as third-party licensed content (GPLv3/CC BY-SA context), even if your original additions are Unlicense.
+- Keep attribution notes when redistributing forks or releases containing these assets.
