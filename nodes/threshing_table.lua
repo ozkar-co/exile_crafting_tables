@@ -9,8 +9,8 @@ local nodebox = {
     },
 }
 
-minetest.register_node("exile_crafting_tables:threshing_table", {
-    description = "Threshing Table",
+minetest.register_node("exile_crafting_tables:threshing_sledge", {
+    description = "Threshing Sledge",
     tiles = { "exile_crafting_tables_maraka_log.png^tech_station_threshing_spot.png" },
     drawtype = "nodebox",
     node_box = nodebox,

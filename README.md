@@ -16,7 +16,7 @@ How it works:
 
 Included optional stations:
 - Crafting Bench (crafting_spot)
-- Threshing Table (threshing_spot)
+- Threshing Sledge (hammering_block)
 - Mixing Bucket (mixing_spot)
 - Hammering Log (hammering_block)
 - Weaving Frame (weaving_frame)
