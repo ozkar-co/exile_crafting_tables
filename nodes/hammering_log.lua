@@ -1,4 +1,4 @@
-minetest.register_node("exile_crafting_tables:hammering_table", {
+minetest.register_node("exile_crafting_tables:hammering_log", {
     description = "Hammering Log",
     tiles = {
         "exile_crafting_tables_hammering_log_top.png",
